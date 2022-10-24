@@ -1,2 +1,2 @@
 # Personal Website 
-Pre-Launch page for personal page - Hosted on Github Pages
+Pre-Launch page for personal page. <br> Hosted on Github Pages - https://harshturna.com
