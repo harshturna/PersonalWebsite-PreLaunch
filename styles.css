@@ -5,6 +5,7 @@
 
 body {
 	margin: 0px;
+	background-color: #181616;
 }
 
 #container {
@@ -24,7 +25,7 @@ body {
 	position: absolute;
 	width: 100%;
 	display: inline-block;
-	
+	color: whitesmoke;
 	font-family: 'Raleway', sans-serif;
 	font-size: 80pt;
 	
