@@ -1,41 +1,22 @@
-/* Explanation in JS tab */
-
-/* Cool font from Google Fonts! */
-@import url('https://fonts.googleapis.com/css?family=Raleway:900&display=swap');
-
+@import 'https://fonts.googleapis.com/css?family=Roboto+Mono:100';
+html,
 body {
-	margin: 0px;
-	background-color: #181616;
+  font-family: 'Roboto Mono', monospace;
+  background: #212121;
+  height: 100%;
 }
-
-#container {
-	/* Center the text in the viewport. */
-	position: absolute;
-	margin: auto;
-	width: 100vw;
-	height: 80pt;
-	top: 0;
-	bottom: 0;
-	
-	filter: url(#threshold) blur(0.6px);
+.container {
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
-
-/* Your average text styling */
-#text1, #text2 {
-	position: absolute;
-	width: 100%;
-	display: inline-block;
-	color: whitesmoke;
-	font-family: 'Raleway', sans-serif;
-	font-size: 80pt;
-	
-	text-align: center;
-	
-	user-select: none;
+.text {
+  font-weight: 100;
+  font-size: 28px;
+  color: #fafafa;
 }
-
-@media (max-width: 450px) {
-    #text1, #text2 {
-        font-size: 40pt;
-    }
+.dud {
+  color: #757575;
 }
